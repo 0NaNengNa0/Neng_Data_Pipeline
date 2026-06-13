@@ -7,4 +7,5 @@ Funny
 Hi here
 Hello my lovee miss youuu
 
+Here's the word for my GF.
 :******** cutest cutenesss everrrrrrrrrr why you so deliciousss omhnomginomononomnomnomnom
