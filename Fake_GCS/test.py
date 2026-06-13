@@ -44,7 +44,5 @@ for bucket in client.list_buckets():
 
         # Print the content of the Blob
         b = bucket.get_blob(blob.name)
-        with tempfile.NamedTemporaryFile() as temp_file:
-            s = b.download_to_filename(temp_file.name)
-            temp_file.seek(0, 0)
-            print(temp_file.read(), "\n")
+        content = b.download_as_string()
+        print(content, "\n")
